@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public abstract  class Fruit {
+    private float weight;
 
-public class Fruit {
+    public float getWeight() {
+        return weight;
+    }
+
+    public Fruit(float weight) {
+        this.weight = weight;
+    }
 }
